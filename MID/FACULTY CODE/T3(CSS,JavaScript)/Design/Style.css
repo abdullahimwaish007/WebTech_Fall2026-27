@@ -53,6 +53,8 @@ body{
 }
 
 .container{
+    /* text-align: center;
+    margin-top: 20px; */
     max-width: 1020px;
     margin: 0 auto;
     padding: 16px;
@@ -129,6 +131,7 @@ input[type="reset"]{
     ;
 }
 #submit{
+    /* display: inline-block; */
     color: white;
     background-color: black;
     width: 40%;
@@ -137,6 +140,7 @@ input[type="reset"]{
     background-color: skyblue;
 }
 #reset{
+    /* display: inline-block; */
     color: white;
     background-color: black;
     width: 40%;
