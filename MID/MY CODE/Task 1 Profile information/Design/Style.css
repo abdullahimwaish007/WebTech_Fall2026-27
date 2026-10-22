@@ -2,10 +2,10 @@
     width: 300px;
     margin: 40px auto;
     border: 2px solid black;
-    border-left: 6px solid purple;
+    border-left: 6px solid #0f7f90;
     padding: 20px;
     text-align: center;
-    font-family: Arial, sans-serif;
+    font-family: Arial, Times New Roman, serif sans-serif;
 }
 
 #profilepic {
@@ -28,7 +28,7 @@ p {
 
 .contactbtn {
     padding: 10px 20px;
-    background-color: purple;
+    background-color: #0f7f90;
     color: white;
     border: none;
     border-radius: 5px;
@@ -37,5 +37,69 @@ p {
 }
 
 .contactbtn:hover {
-    background-color: darkviolet;
+    background-color: #00c8d3ef;
+}
+.education {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.education th {
+    background-color: #459cc5;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.education td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.education tr:hover {
+    background-color: #ddd;
+    transition: 0.3s;
+}
+
+.myinfo {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.myinfo td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.myinfo label {
+    font-weight: bold;
+    color: #333;
+}
+
+.myinfo input {
+    width: 95%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+fieldset {
+    border: 2px solid #3191cc;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color:white;
+}
+
+legend {
+    font-weight: bold;
+    color: black;
+    padding: 0 8px;
 }
